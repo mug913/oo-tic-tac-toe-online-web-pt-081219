@@ -103,9 +103,9 @@ end
       symbol = @board[set[0]]
       else symbol = "Empty" 
       end
-      matches = 0
-      
-      set.each do |index|
+      matches = 0 
+      binding.pry
+          set.each do |index|
           if symbol == @board[index] 
             matches += 1 
           end 
