@@ -164,4 +164,6 @@ end
  
 end
 
-TicTacToe.new.play
+TicTacToe.new
+
+binding.pry
