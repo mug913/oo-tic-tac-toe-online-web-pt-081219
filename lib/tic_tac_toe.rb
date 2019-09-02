@@ -142,7 +142,7 @@ end
   
   def winner 
     if @board[self.won?[0]] == "X" || @board[self.won?[0]] =="O"
-       @board[self.won?[0]]
+       return @board[self.won?[0]]
      else 
        return nil
      end
