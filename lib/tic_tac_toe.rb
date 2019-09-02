@@ -164,6 +164,6 @@ end
  
 end
 
-TicTacToe.new
-
+current_game = TicTacToe.new
+current_game.play
 binding.pry
