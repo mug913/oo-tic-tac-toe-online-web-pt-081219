@@ -119,7 +119,6 @@ end
       end
     end
     winning_combo != []
-    binding.pry
   end 
     
   def full?
