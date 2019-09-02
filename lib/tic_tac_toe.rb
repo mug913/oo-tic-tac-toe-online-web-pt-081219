@@ -115,7 +115,6 @@ end
       
       end
     end
-    win == 1 
   end 
     
   def full?
