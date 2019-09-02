@@ -164,4 +164,3 @@ end
  
 end
 
-current_game = TicTacToe.new
