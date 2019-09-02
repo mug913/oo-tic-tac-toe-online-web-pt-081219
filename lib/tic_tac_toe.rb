@@ -104,14 +104,14 @@ end
       else symbol = "Empty" 
       end
       matches = 0 
-      binding.pry
-          set.each do |index|
+        set.each do |index|
           if symbol == @board[index] 
             matches += 1 
           end 
-          end
-      if matches == 3 
-      winning_combo = set
+         if matches == 3 
+         winning_combo = set
+         end
+if winning_combo != []   
       return winning_combo
       break
       end
