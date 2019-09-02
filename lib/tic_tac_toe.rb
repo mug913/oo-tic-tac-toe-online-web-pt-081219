@@ -118,7 +118,7 @@ end
         end
       end
     end
-    return false
+    winning_combo != []
     binding.pry
   end 
     
