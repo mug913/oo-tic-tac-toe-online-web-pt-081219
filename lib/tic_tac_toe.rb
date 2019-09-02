@@ -109,7 +109,7 @@ end
           if symbol == @board[index] 
             matches += 1 
           end 
-      end
+          end
       if matches == 3 
       winning_combo = set
       return winning_combo
