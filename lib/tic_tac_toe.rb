@@ -159,12 +159,6 @@ end
     else
       puts "Cat's Game!" 
     end 
-    if self.won? 
-      puts "Congratulations #{self.winner}!" 
-    else
-      puts "Cat's Game!" 
-    end 
-  end
   end
   
   
