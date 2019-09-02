@@ -111,12 +111,12 @@ end
           winning_combo = set
         end
         binding.pry
-      if winning_combo != []   
-        return winning_combo
-        binding.pry
-        break
+        if winning_combo != []   
+          return winning_combo
+          binding.pry
+          break
+        end
       end
-    end
     end
     return false
     binding.pry
