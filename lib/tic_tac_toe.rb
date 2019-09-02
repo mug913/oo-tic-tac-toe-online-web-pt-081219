@@ -112,6 +112,7 @@ end
         end
       if winning_combo != []   
         return winning_combo
+        binding.pry
         break
       end
     end
