@@ -141,7 +141,7 @@ end
   end 
   
   def winner 
-    if self.won? != []
+    if !self.draw?
        return @board[self.won?[0]]
      else 
        return nil
