@@ -110,10 +110,10 @@ end
         if matches == 3 
           winning_combo = set
         end
-        binding.pry
+#binding.pry
         if winning_combo != []   
           return winning_combo
-          #binding.pry
+          binding.pry
           break
         end
       end
