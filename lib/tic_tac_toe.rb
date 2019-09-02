@@ -99,7 +99,10 @@ end
     matches = 0
     winning_combo = []
     WIN_COMBINATIONS.each do |set| 
+      if @board[set[0]] != " "
       symbol = @board[set[0]]
+      else symbol = "Empty" 
+      end
       matches = 0
       
       set.each do |index|
