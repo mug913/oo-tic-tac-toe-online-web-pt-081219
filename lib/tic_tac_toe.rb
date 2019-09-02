@@ -110,11 +110,10 @@ end
       if matches == 3 
       winning_combo = set
       return winning_combo
-      
       break
-      
       end
     end
+    return false
   end 
     
   def full?
