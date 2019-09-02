@@ -136,7 +136,7 @@ end
   
   def over?
     self.won? || self.draw? 
-    binding.pry
+   
   end 
   
   def winner 
