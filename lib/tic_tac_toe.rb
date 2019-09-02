@@ -152,6 +152,7 @@ end
   def play 
     until (self.over?) 
       self.turn 
+      binding.pry
     if self.won? 
       puts "Congratulations #{self.winner}!" 
     else
