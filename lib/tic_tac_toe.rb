@@ -95,7 +95,6 @@ end
   end
   
   def won? 
-    win = 0
     matches = 0
     winning_combo = []
     WIN_COMBINATIONS.each do |set| 
@@ -118,10 +117,10 @@ end
     end
     end
     return false
+    binding.pry
   end 
     
   def full?
-    
     count = 0
     @board.each do |index| 
       if index == "X" || index == "O"
