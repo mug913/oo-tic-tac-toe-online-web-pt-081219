@@ -141,7 +141,7 @@ end
   end 
   
   def winner 
-    binding.pry
+    #binding.pry
     if self.won?
        return @board[self.won?[0]]
      else 
