@@ -142,7 +142,7 @@ end
   
   def winner 
     binding.pry
-    if !self.draw?
+    if self.won?
        return @board[self.won?[0]]
      else 
        return nil
