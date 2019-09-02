@@ -100,21 +100,22 @@ end
     winning_combo = []
     WIN_COMBINATIONS.each do |set| 
       if @board[set[0]] != " "
-      symbol = @board[set[0]]
+        symbol = @board[set[0]]
       else symbol = "Empty" 
       end
       matches = 0 
-        set.each do |index|
-          if symbol == @board[index] 
-            matches += 1 
-          end 
-         if matches == 3 
-         winning_combo = set
-         end
-if winning_combo != []   
-      return winning_combo
-      break
+      set.each do |index|
+        if symbol == @board[index] 
+          matches += 1 
+        end 
+        if matches == 3 
+          winning_combo = set
+        end
+      if winning_combo != []   
+        return winning_combo
+        break
       end
+    end
     end
     return false
   end 
